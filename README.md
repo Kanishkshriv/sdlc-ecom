@@ -1,8 +1,8 @@
 # Basic E-commerce Recommendation Algorithm Prototype
 
-**Author:** [Your Name/Intern]
-**Date:** April 20, 2025
-**Status:** Initial Prototype / Learning Exercise
+**Author:** Kanishk
+**Date:** April 19, 2025
+**Status:** Initial Prototype
 
 ## Overview
 
@@ -21,7 +21,7 @@ Essentially, it answers the question: *"What other items are similar to the ones
 
 ## How the Code Works (High-Level Steps)
 
-The provided Python script (`[your_script_name.py]`) performs the following steps:
+The provided Python script (`[recommendation.py]`) performs the following steps:
 
 1.  **Load Data:** Starts with sample data representing user interactions (user ID, item ID, rating).
 2.  **Build User-Item Matrix:** Organizes the data into a table where rows represent users, columns represent items, and the values indicate the rating (or interaction). Missing values are treated as 'no interaction'.
@@ -54,7 +54,3 @@ Running the script will print:
 * **Algorithm Exploration:** Investigate more advanced techniques like Matrix Factorization (SVD), User-Based Collaborative Filtering, Content-Based Filtering, or Hybrid approaches.
 * **Implicit Feedback:** Adapt the model to work with implicit data (clicks, views, purchases) instead of just explicit ratings.
 * **Optimization:** Explore libraries and techniques for handling large, sparse matrices efficiently.
-
-## Contact
-
-Please feel free to reach out to [Your Name/Intern] at [Your Email] with any questions.
